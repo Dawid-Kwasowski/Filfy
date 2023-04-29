@@ -11,7 +11,18 @@ import 'vuetify/styles'
 // Composables
 import { createVuetify } from 'vuetify'
 import { md3 } from 'vuetify/blueprints'
-// https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
+import { pl, en } from 'vuetify/locale'
+import { createI18n, useI18n } from 'vue-i18n';
+import {createVueI18nAdapter} from "vuetify/locale/adapters/vue-i18n";
+import {messages} from "@/assets/content/messages";
+
+export const i18n = createI18n({
+  legacy: false,
+  locale: 'pl',
+  fallbackLocale: 'en',
+  messages: messages
+})
+
 export default createVuetify({
   blueprint: md3,
   theme: {
@@ -24,4 +35,10 @@ export default createVuetify({
       },
     },
   },
+  locale: {
+    locale: 'pl',
+    fallback: 'en',
+    messages: { pl,en },
+    adapter: createVueI18nAdapter({i18n, useI18n})
+  }
 })

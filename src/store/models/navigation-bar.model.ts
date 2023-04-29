@@ -2,6 +2,6 @@ export interface List {
   title: string;
 
   icon?: string;
-  link: string;
+  link?: string;
   sublist?: List [];
 }

@@ -3,7 +3,41 @@ export const messages = {
     home: {
       title: "Cykliczne sprzątanie dzięki aplikacji Filfy",
       subtitle: "Sprzątanie domu to już nie twoje zmartwienie! Specjaliści do spraw sprzątania są do twoich usług dzięki aplikacji Filfy",
-      emailField: "Wpisz swój adres email"
+      emailField: "Wpisz swój adres email",
+      snackbar: "Wysłano na email: ",
+      services: {
+        t: "Nasze usługi",
+        apartmentCleaning: "Kompleksowe sprzątanie mieszkań",
+        carCleaning: "Kompleksowe sprzątanie aut",
+      },
+      testimonials: {
+        t: "Co sądzą o nas nasi klienci",
+      },
+
+    },
+    subscription: {
+      title: "Wybierz swój program",
+      button: "Wybierz plan",
+      plans: {
+        basic: {
+          t: "Podstawowa",
+          description: "Lorem ipsum dolor",
+          tasks: "Lorem ipsum dolor",
+          plan: "Lorem ipsum dolor"
+        },
+        premium: {
+          t: "Premium",
+          description: "Lorem ipsum dolor",
+          tasks: "Lorem ipsum dolor",
+          plan: "Lorem ipsum dolor"
+        },
+        enterprise: {
+          t: "Biznes",
+          description: "Lorem ipsum dolor",
+          tasks: "Lorem ipsum dolor",
+          plan: "Lorem ipsum dolor"
+        },
+      }
     },
     navigation: {
       home: {
@@ -13,7 +47,6 @@ export const messages = {
         t: "Oferta",
         subscribe: "Subskrypcje",
         try: "Wypróbuj",
-        terms: "Regulamin"
       },
       points: {
         t: "Punkty",
@@ -34,7 +67,40 @@ export const messages = {
     home: {
       title: "Regular cleaning thanks to the Filfy app",
       subtitle: "House cleaning is no longer your concern! Cleaning professionals are at your service with the Filfy app",
-      emailField: "Enter your email address"
+      emailField: "Enter your email address",
+      snackbar: "Send to email: ",
+      services: {
+        t: "Our Services",
+        apartmentCleaning: "Comprehensive cleaning of apartments",
+        carCleaning: "Comprehensive car cleaning",
+      },
+      testimonials: {
+        t: "What our customers think about us",
+      },
+    },
+    subscription: {
+      title: "Choose your programme",
+      button: "Choose the plan",
+      plans: {
+        basic: {
+          t: "Basic",
+          description: "Lorem ipsum dolor",
+          tasks: "Lorem ipsum dolor",
+          plan: "Lorem ipsum dolor"
+        },
+        premium: {
+          t: "Premium",
+          description: "Lorem ipsum dolor",
+          tasks: "Lorem ipsum dolor",
+          plan: "Lorem ipsum dolor"
+        },
+        enterprise: {
+          t: "Enterprise",
+          description: "Lorem ipsum dolor",
+          tasks: "Lorem ipsum dolor",
+          plan: "Lorem ipsum dolor"
+        },
+      },
     },
     navigation: {
       home: {
@@ -43,13 +109,6 @@ export const messages = {
       offer: {
         t: "Offer",
         subscribe: "Subscription",
-        try: "Try",
-        terms: "Terms"
-      },
-      points: {
-        t: "Points",
-        spendPoints: "Spend Points",
-        howToGetPoints: "How to Get Points"
       },
       contact: {
         t: "Contact",

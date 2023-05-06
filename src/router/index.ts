@@ -1,18 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from "@/views/Home.vue";
 import Subscription from "@/views/Subscription.vue";
+import Points from "@/views/Points.vue";
 
 const routes = [
   {
     path: '/',
     component: Home,
-    name: 'Home'
+    name: 'Home',
   },
   {
     path: '/subscribe',
     component: Subscription,
-    name: 'Subscription'
-  }
+    name: 'Subscription',
+  },
 ]
 
 const router = createRouter({
